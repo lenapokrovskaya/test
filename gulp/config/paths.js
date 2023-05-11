@@ -30,7 +30,7 @@ module.exports = {
   },
   build: {
     styles: build,
-    html: build + "/tpl",
+    html: build,
     js: build + "/js",
     fonts: build + "/fonts",
     img: build + "/img",
