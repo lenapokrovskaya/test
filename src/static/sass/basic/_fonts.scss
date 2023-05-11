@@ -1,0 +1,48 @@
+/* Your custom fonts here */
+
+/* Example
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/Custom-Font.eot');
+    src: url('fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Custom-Font.woff') format('woff'),
+         url('fonts/Custom-Font.svg#custom_font') format('svg');
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+
+
+
+*/
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: 400;
+	font-style: normal;
+	src: url("/fonts/Poppins-Regular.woff2") format("woff2"), url("/fonts/Poppins-Regular.woff") format("woff");
+}
+@font-face {
+	font-family: "Poppins";
+	font-weight: 500;
+	font-style: normal;
+	src: url("/fonts/Poppins-Medium.woff2") format("woff2"), url("/fonts/Poppins-Medium.woff") format("woff");
+}
+@font-face {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-style: normal;
+	src: url("/fonts/Poppins-SemiBold.woff2") format("woff2"), url("/fonts/Poppins-SemiBold.woff") format("woff");
+}
+@font-face {
+	font-family: "Poppins";
+	font-weight: 700;
+	font-style: normal;
+	src: url("/fonts/Poppins-Bold.woff2") format("woff2"), url("/fonts/Poppins-Bold.woff") format("woff");
+}
+
+// Var for using custom font
+$CustomFont: 'Poppins',
+Helvetica,
+Arial,
+sans-serif;

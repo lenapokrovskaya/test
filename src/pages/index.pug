@@ -1,0 +1,26 @@
+extends template/_layout
+
+include ../components/main/main
+include ../components/header/header
+include ../components/intro/intro
+include ../components/news/news
+include ../components/news__item/news__item
+include ../components/about/about
+include ../components/text/text
+include ../components/music/music
+include ../components/media/media
+include ../components/tours/tours
+include ../components/tours__card/tours__card
+include ../components/btn/btn
+include ../components/footer/footer
+
+block vars
+  - var title = "Bright Lights";
+
+
+block content 
+  +header()
+  +main()
+  +footer()
+
+

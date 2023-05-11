@@ -1,0 +1,24 @@
+mixin news()
+
+  section.news
+    .container
+      .news__wrapper
+        h2.visually-hidden News
+        +news__item('#', '../img/news/news-work@1x.jpg', 
+        '/img/news/news-work@2x.jpg', 
+        "Working on my upcoming full-lenth album",'350','300',
+        'Working on my upcoming full-lenth album that`s releasing later this year.')
+
+        +news__item('#', '/img/news/news-track@1x.jpg', 
+        '/img/news/news-track@2x.jpg', 
+        "Halloween vibes",'350','300',
+        'Halloween vibes.',
+        'Listen my new track!'
+        )
+
+        +news__item('#', '/img/news/news-stream@1x.jpg', 
+        '/img/news/news-stream@2x.jpg', 
+        "WarForLove is OUT NOW!!",'350','300',
+        'WarForLove is OUT NOW!!',
+        'Stream it here!'
+        )
